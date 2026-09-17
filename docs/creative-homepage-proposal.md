@@ -1,44 +1,26 @@
-# Creative-led homepage — first review
+# Creative preview — revised direction
 
-Draft proposal only. No deployment or merge authorised in this pass.
+Draft PR, not merged. Review through the external GitHub-file preview; main GitHub Pages remains unchanged.
 
-## Page sequence
+## Current experience
 
-| Position | Treatment | Content |
-| --- | --- | --- |
-| 1. Hero | Large left-aligned name, compact introduction | Jazz Farey / Selected Brand + Creative Work / I connect brand, creative and growth. |
-| 2. Reel | Wide 16:9 black stage immediately below the hero | Portfolio-original HTML/CSS title card: Ideas. In motion. One entrance animation, reduced-motion support. Clearly labelled as a preview; no fake play button. |
-| 3. Selected Work | Existing asymmetric four-case grid; fewer supporting words | Money Your Way, That’s A Flex, Built for Feed, Finding Winners Faster, in that order. |
-| 4. Earlier work | Compact four-column strip; two columns on mobile | allHearts, Barnardos Buddies, Give with Heart Day, Walk Your Way. Names and disciplines only; not clickable, no campaign media. |
-| 5. How I think | Dark full-width section; three short statements | Ideas / Systems / Economics. |
-| 6. Better. | Small secondary section | What I’m building now; link to existing Better. page. |
-| 7. Contact | Email and LinkedIn | Existing leadership/ownership disclaimer retained. Cutting Room available as a secondary link. |
+1. Jazz Farey / Selected Brand + Creative Work.
+2. Actual That’s A Flex campaign motion embedded from Robert Pregardt-Paur’s LinkedIn post, next to a short “Hi, I’m Jazz” introduction. This is a 10-second campaign video, not a newly edited multi-campaign showreel.
+3. Four selected cases in the requested order.
+4. Four earlier-work links to the existing Squarespace case studies, with Megan Pope and Alana Indratheb credited on the relevant entries. No older campaign assets imported.
+5. Better. as a small current-project section.
+6. Contact.
 
-## Navigation
+Navigation: Work / Better. / Contact. How I think and Cutting Room removed from the homepage/navigation. Their old routes remain available for existing links.
 
-Work · How I think · Better. · Contact. All link to homepage sections consistently across the eight pages. Beliefs remains accessible at its existing URL to preserve its material and inbound links, but is no longer in primary navigation. Cutting Room remains available through the homepage secondary link.
+## Contribution and media
 
-## How I think
+Jazz’s leadership wording and the existing ownership footer remain unchanged. The added native LinkedIn player preserves its source context. Adjacent credit: Zip Co. / VML Australia / motion design and animation by Robert Pregardt-Paur. Original post: https://www.linkedin.com/posts/robert-pregardt-paur_videocontent-socialmediadesign-brandanimation-activity-7310062806643474432-uIIO/
 
-- **Ideas.** Give people a reason to care and a point of view to remember.
-- **Systems.** Build ideas that travel, with room for teams to make great work.
-- **Economics.** Connect creative decisions to customer behaviour and commercial value.
+User authorised using referenced collaborator work in this revision. This is a publisher-provided external embed, expanding the previous Zip-owned-only publication set. No media has been downloaded, screenshot, reconstructed or generated. Attribution and public availability are not represented as legal clearance. Tanya’s identity remains unconfirmed; no credit has been invented or substituted. Taylor Aranki was found in earlier research but no new Taylor media has been added in this revision.
 
-## Reel handoff
+Zero local Zip creative. Neutral social-preview.png retained. Existing case-study embeds/direct links retained. A future edited reel still needs source files and an established basis for reuse; this preview does not pretend one has been produced.
 
-The motion slot supports a later video or Vimeo iframe through scoped responsive styles. The current title card is portfolio-original and is not a showreel or a reconstruction of any campaign. A 20–30 second finished edit needs approved source material before insertion. Keep controls, an accessible player title, a stable aspect ratio and attribution beside the finished reel. No third-party player requests are introduced by this proposal.
+## Validation
 
-## Earlier work handoff
-
-The four named slots sit immediately after the Zip cases, before How I think. Once media rights are confirmed, replace these name-only slots with visual case entries. Preserve collaborator credits, including Megan Pope (allHearts) and Alana Indratheb (Barnardos Buddies), subject to checking the final source assets. No older assets or metrics have been imported.
-
-## Checks and limits
-
-- Local HTML and CSS references plus internal fragment destinations checked across all eight pages.
-- JavaScript syntax passes; no media references in JavaScript.
-- All eight pages retain neutral social-preview metadata.
-- Only `Assets/social-preview.png` remains in the media directory; no new media files.
-- Existing case external links/embeds, leadership copy, and every footer are unchanged.
-- Non-homepage changes are limited to primary navigation.
-- Whitespace check passes with existing CRLF line endings recognised.
-- Rendered desktop/mobile QA is blocked: the browser rejects the local preview with `ERR_BLOCKED_BY_CLIENT`. Responsive CSS is present, but visual fit and interaction need browser review before merge.
+Local references and anchors, JavaScript syntax, social metadata, unchanged case content outside navigation, unchanged footer, and absence of local campaign media checked. Rendered preview verification is recorded in the PR delivery; the earlier local browser attempt was blocked.

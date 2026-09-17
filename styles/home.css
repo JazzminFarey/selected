@@ -23,10 +23,6 @@
 .archive-grid article { border-top: 1px solid var(--ink); padding-top: 16px; }
 .archive-grid .t-mono { font-size: 10px; }
 .archive-grid h3 { font-size: clamp(22px, 2.6vw, 36px); line-height: 1.1; letter-spacing: -.04em; margin-top: 24px; font-weight: 500; }
-.thinking-section { background: var(--ink); color: var(--paper); padding-block: clamp(48px, 6vw, 88px); }
-.thinking-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; margin-top: 40px; }
-.thinking-grid h3 { font-size: clamp(36px, 5vw, 72px); letter-spacing: -.055em; line-height: 1; font-weight: 500; }
-.thinking-grid p { margin-top: 22px; max-width: 30ch; color: #d0d0ce; font-size: 17px; line-height: 1.5; }
 .building-section { padding-block: 64px; }
 .building-section a { display: flex; align-items: center; gap: 40px; width: fit-content; margin-block: 16px; }
 .building-section h2 { font-size: clamp(40px, 5vw, 64px); letter-spacing: -.045em; font-weight: 500; }
@@ -34,16 +30,25 @@
 .building-section > p:last-child { color: var(--muted); }
 .home .contact { padding-top: 40px; }
 .secondary-link { display: inline-block; margin-top: 28px; font-size: 13px; }
-#thinking, #building, #contact { scroll-margin-top: 120px; }
+#building, #contact { scroll-margin-top: 120px; }
 @media (max-width: 760px) {
  .home-intro { flex-direction: column; gap: 10px; margin-top: 24px; }
  .home-hero { padding-top: 150px; padding-bottom: 28px; }
  .archive-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 20px; }
- .thinking-grid { grid-template-columns: 1fr; gap: 32px; }
- .thinking-grid article { border-top: 1px solid #484848; padding-top: 24px; }
- .thinking-grid p { margin-top: 12px; max-width: 36ch; }
  .home .proj-typo .bigword { font-size: clamp(40px, 12vw, 80px); }
  .motion-top span:last-child { display: none; }
  .motion-bottom { font-size: 8px; letter-spacing: .03em; }
 }
 @media (prefers-reduced-motion: reduce) { .motion-poster h2 span:last-child { animation: none; } }
+
+/* Actual externally published campaign motion; no downloaded media. */
+.motion-and-intro { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.campaign-player { aspect-ratio: 16 / 9; background: var(--ink); }
+.campaign-player iframe { width: 100%; height: 100%; border: 0; display: block; }
+.campaign-motion figcaption { margin-top: 14px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.campaign-motion figcaption a { text-decoration: underline; text-underline-offset: 3px; }
+.about-jazz h2 { font-size: clamp(30px, 3.5vw, 52px); letter-spacing: -.045em; margin-bottom: 20px; font-weight: 500; }
+.about-jazz p { font-size: clamp(17px, 1.65vw, 23px); line-height: 1.5; max-width: 32ch; }
+@media (max-width: 760px) { .motion-and-intro { grid-template-columns: 1fr; } .about-jazz p { max-width: 40ch; } }
+
+.archive-credit { margin-top: 12px; color: var(--muted); font-size: 12px; }
