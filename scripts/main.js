@@ -26,7 +26,7 @@
         }
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
-    reveals.forEach((el) => io.observe(el));
+    reveals.forEach((el) => { el.classList.add('is-pending'); io.observe(el); });
   } else {
     reveals.forEach((el) => el.classList.add('is-in'));
   }
