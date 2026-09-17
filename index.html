@@ -28,8 +28,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="styles/main.css" />
+<link rel="stylesheet" href="styles/home.css" />
 </head>
-<body>
+<body class="home">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -38,36 +39,41 @@
     <a href="index.html" class="brand" aria-label="Jazz Farey home">Jazz Farey</a>
     <nav class="nav-links" aria-label="Primary">
       <a href="index.html#work">Work</a>
-      <a href="beliefs.html">Beliefs</a>
-      <a href="better.html">Better.</a>
-      <a href="cutting-room.html">Cutting Room</a>
-      <a href="mailto:Jazzminfarey@gmail.com" class="nav-cta">Get in touch</a>
+      <a href="index.html#thinking">How I think</a>
+      <a href="index.html#building">Better.</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
 
-<!-- ============== HERO ============== -->
-<section class="hero-centered">
-  <div class="hero-name-block">
-    <span class="hero-dot reveal" aria-hidden="true"></span>
-    <h1 class="hero-name reveal" data-delay="1">Jazz Farey</h1>
+<!-- Identity, followed immediately by the future campaign reel. -->
+<section class="home-hero wrap">
+  <h1>Jazz Farey</h1>
+  <div class="home-intro">
+    <h2>Selected Brand + Creative Work</h2>
+    <p>I connect brand, creative and growth.</p>
   </div>
-  <div class="hero-copy reveal" data-delay="2">
-    <p class="hero-positioning">Selected work across brand, campaigns, creative and growth.</p>
-    <p>I connect what a brand stands for, how a product is positioned and the creative that brings it to life. Ideas, systems and economics.</p>
-  </div>
-  <a class="hero-scroll-cue" href="#work" aria-label="Scroll to selected work">
-    <span>Scroll</span>
-  </a>
+</section>
+<section class="motion-feature wrap" aria-labelledby="reel-title">
+  <figure class="motion-slot">
+    <!-- Replace this portfolio-original poster with an approved video/iframe later.
+         Preserve the 16:9 container; do not introduce downloaded campaign art. -->
+    <div class="motion-poster">
+      <div class="motion-top"><span>Jazz Farey / Selected work</span><span>Motion study / 01</span></div>
+      <h2 id="reel-title"><span>Ideas.</span><span>In motion.</span></h2>
+      <div class="motion-bottom"><span>Brand + Creative</span><span>Reel in development</span></div>
+    </div>
+  </figure>
+  <p class="motion-caption">Original title-card preview. Campaign reel to follow.</p>
 </section>
 
 <!-- ============== WORK SHOWCASE ============== -->
 <section id="work" class="wrap section">
   <div class="section-head reveal">
-    <h2><span class="t-mono" style="display:block;color:var(--muted);margin-bottom:8px">Selected Work</span></h2>
-    <span class="t-mono">2023&ndash;2025</span>
+    <h2>Selected Work</h2>
+    <span class="t-mono">01—04 / Zip Co.</span>
   </div>
 
   <div class="showcase">
@@ -118,21 +124,46 @@
   </div>
 </section>
 
+<!-- Structure only: no older campaign media or unapproved destinations. -->
+<section class="earlier-work wrap" aria-labelledby="earlier-title">
+  <div class="section-head"><h2 id="earlier-title">Earlier work</h2><span class="t-mono">Coming into view</span></div>
+  <div class="archive-grid">
+    <article><span class="t-mono">Brand + Commerce</span><h3>allHearts</h3></article>
+    <article><span class="t-mono">Product + Proposition</span><h3>Barnardos Buddies</h3></article>
+    <article><span class="t-mono">Integrated Campaign</span><h3>Give with Heart Day</h3></article>
+    <article><span class="t-mono">Creative + Acquisition</span><h3>Walk Your Way</h3></article>
+  </div>
+  <p class="archive-note">More case studies to come.</p>
+</section>
+<section id="thinking" class="thinking-section" aria-labelledby="thinking-title">
+  <div class="wrap">
+    <h2 id="thinking-title" class="t-mono">How I think</h2>
+    <div class="thinking-grid">
+      <article><h3>Ideas.</h3><p>Give people a reason to care and a point of view to remember.</p></article>
+      <article><h3>Systems.</h3><p>Build ideas that travel, with room for teams to make great work.</p></article>
+      <article><h3>Economics.</h3><p>Connect creative decisions to customer behaviour and commercial value.</p></article>
+    </div>
+  </div>
+</section>
+<section id="building" class="building-section wrap" aria-labelledby="building-title">
+  <p class="t-mono">What I’m building now</p>
+  <a href="better.html"><h2 id="building-title">Better.</h2><span aria-hidden="true">↗</span></a>
+  <p>Recommendation intelligence and production.</p>
+</section>
 </main>
 
 <!-- ============== CONTACT ============== -->
-<section class="contact wrap">
+<section id="contact" class="contact wrap">
   <div class="contact-grid reveal">
     <h2 class="contact-heading">Let&rsquo;s <em class="serif">talk</em>.</h2>
     <div>
-      <p class="contact-body">If you want to chat about brand, marketing, creative or growth, I&rsquo;d love to hear from you.</p>
       <ul class="contact-links">
         <li><span class="label">Email</span><a href="mailto:Jazzminfarey@gmail.com">Jazzminfarey@gmail.com</a></li>
         <li><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/jazzmin-farey/" target="_blank" rel="noopener">linkedin.com/in/jazzmin-farey</a></li>
-        <li><span class="label">Better</span><a href="https://better-mktg.com" target="_blank" rel="noopener">better-mktg.com</a></li>
       </ul>
     </div>
   </div>
+  <a class="secondary-link" href="cutting-room.html">From the Cutting Room ↗</a>
   <p class="contact-disclaimer">Selected work completed while at Zip Co. I led, or led teams responsible for, the work described in these case studies. Campaign assets and creative IP remain the property of Zip Co. and/or their respective rights holders. Work is presented solely to describe my professional contribution. No confidential or unpublished material is included.</p>
 </section>
 
