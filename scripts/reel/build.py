@@ -1,73 +1,83 @@
+"""30-second correction edit. Explicit compositions; every foreground asset is uncropped.
+Only background colour fields extend beyond the frame. Source artwork is never redrawn.
+"""
 from pathlib import Path
-from PIL import Image,ImageOps,ImageDraw,ImageFont
-import subprocess,json,concurrent.futures
-import os
-ROOT=Path(__file__).resolve().parents[2]
-S=Path(os.environ.get('REEL_SOURCES','/tmp/reel-source'));E=Path(os.environ.get('REEL_EDIT','/tmp/reel-edit-v2'));O=ROOT/'Assets';W,H=1280,720
-E.mkdir(parents=True,exist_ok=True)
-font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';bold='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
-def img(n):return Image.open(S/n).convert('RGB')
-def frame(names,name,mode='fill',label=None):
- canvas=Image.new('RGB',(W,H),'#fafaf8'); n=len(names)
- for i,src in enumerate(names):
-  im=img(src);box=(W//n,H)
-  if mode=='fit':
-   im=ImageOps.contain(im,box); canvas.paste(im,(i*(W//n)+(box[0]-im.width)//2,(H-im.height)//2))
-  else:canvas.paste(ImageOps.fit(im,box,centering=(.5,.45)),(i*(W//n),0))
- if label:
-  d=ImageDraw.Draw(canvas);f=ImageFont.truetype(font,20);b=d.textbbox((0,0),label,font=f);d.rectangle((24,24,b[2]+48,64),fill='#0a0a0a');d.text((36,32),label,font=f,fill='white')
- p=E/(name+'.jpg');canvas.save(p,quality=94);return p
-
-def card(name,lines):
- im=Image.new('RGB',(W,H),'#111111');d=ImageDraw.Draw(im)
- for txt,y,size in lines:
-  f=ImageFont.truetype(bold if size>40 else font,size);d.text((64,y),txt,font=f,fill='#fafaf8')
- p=E/(name+'.jpg');im.save(p,quality=95);return p
-shots=[]
-def still(p,duration):shots.append({'source':str(p),'duration':duration,'type':'still'})
-def motion(p,duration,start=0):shots.append({'source':str(p),'duration':duration,'type':'motion','start':start})
-still(card('intro',[('JAZZ FAREY',260,100),('BRAND + CREATIVE',410,26)]),2)
-still(frame(['money-hero.png','money-1.png'],'money-a','fill','ZIP'),1)
-still(frame(['money-2.png','money-hero.png'],'money-b','fill'),1)
-motion(S/'flex.mp4',1.5,0);motion(S/'flex.mp4',1.5,5)
-still(frame(['feed-1.jpg','money-hero.png'],'social','fit'),1)
-for i,n in enumerate(['allheartsecommerce-1.jpg','allheartsecommerce-0.jpg','allheartsecommerce-2.jpg']):still(frame([n],f'all-{i}',label='allHearts' if i==0 else None),1)
-still(frame(['allheartsecommerce-0.jpg','allheartsecommerce-2.jpg'],'all-3'),1)
-for i,n in enumerate(['barnardosbuddies-0.jpg','home-2.jpg','barnardosbuddies-1.jpg','barnardosbuddies-2.jpg']):still(frame([n],f'barn-{i}','fit' if i==0 else 'fill',label='Barnardos Buddies' if i==0 else None),1)
-motion(S/'death-by-xoko-65a7m-0.gif',1.5,.5)
-still(frame(['home-3.jpg'],'jump-1',label='Jump Rope for Heart'),.75)
-still(frame(['death-by-xoko-65a7m-2.jpg'],'jump-2'),.75)
-still(frame(['home-0.jpg'],'walk-0',label='Walk Your Way'),1)
-still(frame(['walkyourway-1.jpg'],'walk-1','fill'),1.5)
-still(frame(['home-0.jpg'],'walk-2'),.75)
-still(frame(['walkyourway-1.jpg'],'walk-3'),.75)
-still(frame(['home-4.jpg'],'give-0','fit','Give with Heart Day'),1)
-still(frame(['integratedcampaigns-2.jpg'],'give-1'),1)
-still(frame(['home-5.jpg'],'give-2',label='Heart Foundation / PR'),1)
-still(frame(['home-4.jpg','home-6.jpg'],'give-3','fit'),1)
-still(card('end',[('IDEAS.',170,80),('SYSTEMS.',270,80),('ECONOMICS.',370,80),('JAZZ FAREY',565,28)]),3)
-assert sum(s['duration'] for s in shots)==30
-elapsed=0
-for shot in shots:
- shot['start_frame']=round(elapsed*30); elapsed+=shot['duration']; shot['frames']=round(elapsed*30)-shot['start_frame']
-
-def render(pair):
- i,s=pair;dest=E/f'{i:02}.mp4';cmd=['ffmpeg','-v','error','-y']
- if s['type']=='still':cmd+=['-loop','1']
- elif s['source'].endswith('.gif'):cmd+=['-stream_loop','-1','-ss',str(s.get('start',0))]
- else:cmd+=['-ss',str(s['start'])]
- cmd+=['-i',s['source'],'-frames:v',str(s['frames']),'-an','-vf',f'scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:color=0xe4e7ec,setsar=1,fps=30','-c:v','libx264','-preset','fast','-crf','23','-pix_fmt','yuv420p','-threads','2',str(dest)]
- subprocess.run(cmd,check=True);return dest
-paths=list(concurrent.futures.ThreadPoolExecutor(max_workers=4).map(render,enumerate(shots)))
-(E/'concat.txt').write_text('\n'.join(f"file '{p}'" for p in paths))
-subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',str(E/'concat.txt'),'-c:v','libx264','-preset','slow','-crf','21','-pix_fmt','yuv420p','-movflags','+faststart','-an',str(O/'reel/jazz-farey-showreel.mp4')],check=True)
-# Web tiles: actual work only. No brand reconstruction.
-tiles={'money-your-way':'money-hero.png','built-for-feed':'feed-1.jpg','allhearts':'allheartsecommerce-1.jpg','barnardos':'home-2.jpg','jump-rope':'home-3.jpg','walk-your-way':'home-0.jpg','give-with-heart':'home-4.jpg'}
-for name,src in tiles.items():
- im=img(src);im.thumbnail((1200,1200));im.save(O/'work'/f'{name}.webp',quality=87)
-Image.open(E/'money-a.jpg').save(O/'reel/poster.webp',quality=88)
-Image.open(E/'social.jpg').save(O/'work/creative-system.webp',quality=87)
-subprocess.run(['ffmpeg','-v','error','-y','-ss','2','-i',str(S/'flex.mp4'),'-frames:v','1',str(O/'work/thats-a-flex.webp')],check=True)
-(E/'timeline.json').write_text(json.dumps(shots,indent=2))
-(ROOT/'docs/reel-timeline.json').write_text(json.dumps([{**s,'source':Path(s['source']).name} for s in shots],indent=2))
-print('REEL COMPLETE', (O/'reel/jazz-farey-showreel.mp4').stat().st_size)
+from PIL import Image, ImageOps, ImageDraw, ImageFont, ImageFilter, ImageSequence
+import subprocess, json, math
+ROOT=Path(__file__).resolve().parents[2]; A=ROOT/'Assets'; OUT=A/'reel'; TMP=Path('/tmp/reel-correction');TMP.mkdir(exist_ok=True)
+W,H,FPS=1280,720,30
+sources={
+ 'money':A/'Money Your Way/Hero.png','money2':A/'Money Your Way/1000131099 (1).png','trust':A/'Money Your Way/1000131103.png',
+ 'flex1':A/"That's A Flex/Ad 1.jpg",'flex2':A/"That's A Flex/Ad 2.jpg",
+ 'creator':A/'Feed/1.jpg','creator2':A/'Feed/2.jpg','travel':A/'Feed/4.jpg',
+ 'shirt':A/'earlier/allheartsecommerce-0.webp','mugs':A/'earlier/allheartsecommerce-1.webp','tote':A/'earlier/allheartsecommerce-2.webp',
+ 'posters':A/'earlier/home-2.webp','social':A/'earlier/barnardosbuddies-1.webp','buddies':A/'earlier/barnardosbuddies-2.webp',
+ 'book':A/'earlier/home-3.webp','spread':A/'earlier/death-by-xoko-65a7m-2.webp',
+ 'walk':A/'earlier/home-0.webp','phones':A/'earlier/walkyourway-1.webp'}
+ims={k:Image.open(p).convert('RGB') for k,p in sources.items()}
+# Extract genuine motion unchanged; its entire source frame remains visible.
+subprocess.run(['ffmpeg','-v','error','-y','-i',str(A/'work/flex-campaign.mp4'),'-vf','fps=30',str(TMP/'flex-%03d.jpg')],check=True)
+flex=[Image.open(p).convert('RGB') for p in sorted(TMP.glob('flex-*.jpg'))]
+g=Image.open(A/'earlier/jump-rope.gif');jump=[f.convert('RGB') for f in ImageSequence.Iterator(g)]
+# Each shot has a deliberately chosen composition, background and source grouping.
+shots=[
+ ('money-pair',0,2,'Money Your Way'),('flex-motion',2,4.5,'That’s A Flex'),('creator-triptych',4.5,7,'Built for Feed'),
+ ('allhearts-pair',7,9,'allHearts'),('allhearts-product',9,11,'allHearts'),
+ ('barn-posters',11,13,'Barnardos Buddies'),('barn-pair',13,15,'Barnardos Buddies'),
+ ('jump-motion',15,17.5,'Jump Rope'),('jump-spread',17.5,19,'Jump Rope'),
+ ('walk-phones',19,21,'Walk Your Way'),('walk-pair',21,23,'Walk Your Way'),
+ ('money-trust',23,23.75,'Money Your Way'),('flex-print',23.75,24.5,'That’s A Flex'),
+ ('allhearts-pair',24.5,25.25,'allHearts'),('barn-pair',25.25,26,'Barnardos Buddies'),
+ ('jump-spread',26,26.75,'Jump Rope'),('walk-phones',26.75,27.5,'Walk Your Way'),
+ ('creator-triptych',27.5,28.25,'Built for Feed'),('flex-motion-return',28.25,29.25,'That’s A Flex'),
+ ('money-pair',29.25,30,'Money Your Way')]
+# Full source images are fitted into explicit boxes; no universal centre-crop.
+def place(c,key,box,im=None):
+ x,y,w,h=box;src=im if im is not None else ims[key];s=ImageOps.contain(src,(int(w),int(h)),Image.Resampling.LANCZOS)
+ c.paste(s,(int(x+(w-s.width)/2),int(y+(h-s.height)/2)))
+def field(key):
+ # A defocused colour field from that exact creative fills the canvas behind complete assets.
+ return ImageOps.fit(ims[key],(W,H)).filter(ImageFilter.GaussianBlur(65))
+def draw(kind,t):
+ if kind.startswith('money'):
+  c=field('money');place(c,'money',(22,42,620,636));place(c,'trust' if kind=='money-trust' else 'money2',(648,42,610,636))
+ elif kind.startswith('flex-motion'):
+  c=Image.new('RGB',(W,H),'#ab83f8');sec=(3.4+t if kind.endswith('return') else 3.6+t);im=flex[min(len(flex)-1,int(sec*30))]
+  # Original grid complete, companion print execution complete at right.
+  place(c,None,(0,0,1020,720),im);place(c,'flex2',(1030,188,240,344))
+ elif kind=='flex-print':
+  c=Image.new('RGB',(W,H),'#ae87f5');place(c,'flex1',(80,0,509,720));place(c,'flex2',(690,0,503,720))
+ elif kind=='creator-triptych':
+  c=Image.new('RGB',(W,H),'#d6d6c9');place(c,'creator',(0,0,426,720));place(c,'creator2',(427,0,426,720));place(c,'travel',(854,0,426,720))
+ elif kind=='allhearts-pair':
+  c=field('mugs');place(c,'mugs',(20,40,620,640));place(c,'shirt',(650,40,610,640))
+ elif kind=='allhearts-product':
+  c=field('tote');place(c,'tote',(50,0,720,720));place(c,'shirt',(832,10,400,345));place(c,'mugs',(832,365,400,345))
+ elif kind=='barn-posters':
+  c=Image.new('RGB',(W,H),'#a5cd45');place(c,'posters',(0,0,960,720));place(c,'social',(970,30,300,330));place(c,'buddies',(970,365,300,330))
+ elif kind=='barn-pair':
+  c=field('social');place(c,'social',(16,116,620,488));place(c,'buddies',(644,116,620,488))
+ elif kind=='jump-motion':
+  c=Image.new('RGB',(W,H),'#e4e7ee');im=jump[min(8,2+int(t*2))];place(c,None,(0,0,790,720),im);place(c,'spread',(790,150,480,420))
+ elif kind=='jump-spread':
+  c=Image.new('RGB',(W,H),'#d9dce2');place(c,'spread',(0,0,1000,720));place(c,'book',(1010,180,260,360))
+ elif kind=='walk-phones':
+  c=Image.new('RGB',(W,H),'#f7efe5');place(c,'phones',(0,0,1000,720));place(c,'walk',(1000,80,280,560))
+ elif kind=='walk-pair':
+  c=Image.new('RGB',(W,H),'#f7efe5');place(c,'walk',(0,120,640,480));place(c,'phones',(640,120,640,480))
+ return c
+# 900 exact frames, editorial cuts only. No title cards or voiceover.
+cmd=['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1280x720','-r','30','-i','-','-an','-c:v','libx264','-preset','fast','-crf','21','-pix_fmt','yuv420p','-movflags','+faststart',str(OUT/'jazz-farey-showreel.mp4')]
+p=subprocess.Popen(cmd,stdin=subprocess.PIPE)
+font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',17)
+for i in range(900):
+ t=i/30;k,start,end,label=next(s for s in shots if s[1]<=t<s[2]);im=draw(k,t-start)
+ if i<30:
+  d=ImageDraw.Draw(im);d.rectangle((24,18,340,46),fill='#fafaf8');d.text((33,23),'JAZZ FAREY · SELECTED WORK',font=font,fill='#111111')
+ p.stdin.write(im.tobytes())
+ if i in [round(s[1]*30)+3 for s in shots]:im.save(TMP/f'qa-{i:03d}.jpg',quality=92)
+p.stdin.close();assert p.wait()==0
+# The poster is the same complete two-up creative, without the identification overlay.
+draw('money-pair',0).save(OUT/'poster.webp',quality=91)
+(ROOT/'docs/reel-timeline.json').write_text(json.dumps([{'composition':k,'start':a,'end':b,'project':n,'start_frame':round(a*30),'frames':round(b*30)-round(a*30)} for k,a,b,n in shots],indent=2))
+print('Rendered 900 frames / 30 seconds')

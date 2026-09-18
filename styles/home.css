@@ -46,3 +46,22 @@
 .tile-loop { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity 160ms ease; }
 .proj.is-playing .tile-loop { opacity:1; }
 @media(prefers-reduced-motion:reduce) { .tile-loop { display:none; } }
+/* Correction: source-shaped creative tiles; preserve complete artwork. */
+.home .money-tile .proj-image { aspect-ratio:1; background:none; }
+.home .flex-tile .proj-image { aspect-ratio:938/1327; background:none; }
+.home .feed-tile .proj-image { aspect-ratio:672/1201; background:none; }
+.home .money-tile .proj-image img,.home .feed-tile .proj-image img,.home .flex-tile .proj-image img { object-fit:cover; background:none; transform:none; }
+.home .system-tile .proj-image { aspect-ratio: 4/5; }
+.home .system-tile .proj-typo .bigword { font-size:clamp(40px,6.8vw,100px); }
+.home .system-tile { align-self:stretch; display:flex; flex-direction:column; }
+.home .system-tile .proj-image { flex:1; min-height:420px; }
+.home .earlier-image { aspect-ratio:auto; }
+.home .earlier-image img { height:auto; object-fit:contain; transform:none; }
+.home .visual-work:last-child { grid-column:auto; }
+.home .visual-work:last-child .earlier-image { aspect-ratio:auto; }
+.home .visual-work { cursor:default; }
+.home .showcase { align-items:start; }
+@media(max-width:760px) {
+ .home .system-tile .proj-typo .bigword { font-size:clamp(50px,14vw,90px); }
+ .home .system-tile .proj-image { min-height:430px; }
+}

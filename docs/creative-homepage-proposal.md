@@ -1,11 +1,11 @@
-# Creative homepage — implemented build
+# Corrected creative portfolio
 
-The homepage now includes a native 30-second multi-project reel, short introduction, four creative-led Zip tiles, five visual earlier-work tiles, Better. and contact. Navigation is Work / Better. / Contact.
+PR #2 remains draft and unmerged. Homepage order remains Jazz → 30-second reel → short introduction → Zip work → earlier visual work → Better. → contact. Navigation remains Work / Better. / Contact.
 
-The video uses the real campaign assets listed in [the asset and credit register](reel-asset-credits.md). No campaign artwork was generated. The separate rights/provenance pass remains later, under the user's explicit full-reuse permission assumption for this build.
+Money Your Way uses its complete square artwork. Flex uses the original portrait campaign execution with headline, subject and product branding intact. Built for Feed uses the complete portrait creator frame. Finding Winners Faster restores the original typographic tile and system-led case treatment.
 
-PR #2 stays draft and unmerged. Main GitHub Pages is unchanged.
+The Zip case pages restore their original media within the existing layout and copy. Money Your Way has its hero and two-image gallery. Flex has the two print executions and full Robert campaign motion. Feed has an immediately visible three-image creator gallery plus its original social embeds/poster artwork.
 
-The reel has a two-second opening, Zip (2–8), allHearts (8–12), Barnardos Buddies (12–16), Jump Rope (16–19), Walk Your Way (19–23), Give with Heart Day and Heart Foundation montage (23–27), and a three-second end card. Native controls support playback, sound and fullscreen. Flex has a muted desktop hover/focus loop; mobile and reduced-motion users see the poster.
+Earlier-work tiles are non-interactive articles: allHearts, Barnardos Buddies, Jump Rope for Heart and Walk Your Way. There is no separate Barnardos project in the source portfolio. No archive/external navigation is attached to these tiles.
 
-See reel-timeline.json for frame positions and reel-asset-credits.md for source files and collaborators. scripts/reel contains the edit and original instrumental generation code.
+The reel contains only those projects plus the three named Zip bodies of work. No black title cards or extra projects. See reel-timeline.json and reel-asset-credits.md.
