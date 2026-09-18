@@ -65,3 +65,12 @@
  .home .system-tile .proj-typo .bigword { font-size:clamp(50px,14vw,90px); }
  .home .system-tile .proj-image { min-height:430px; }
 }
+
+/* Director pass: reel and unchanged introduction share one balanced row. */
+.motion-feature { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,3fr); gap:36px; align-items:center; }
+.reel-column { min-width:0; }
+.motion-feature .about-short { display:block; padding:0 0 32px; margin:0; width:auto; }
+.motion-feature .about-short h2 { font-size:clamp(26px,2.5vw,38px); margin:0 0 18px; }
+.motion-feature .about-short p { font-size:clamp(16px,1.45vw,21px); line-height:1.55; }
+.reel-foot { font-size:11px; gap:16px; }
+@media(max-width:760px) { .motion-feature { grid-template-columns:1fr; gap:28px; } .motion-feature .about-short { padding:0; } .motion-feature .about-short p { font-size:18px; max-width:48ch; } }
