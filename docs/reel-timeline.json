@@ -1,0 +1,187 @@
+[
+  {
+    "source": "intro.jpg",
+    "duration": 2,
+    "type": "still",
+    "start_frame": 0,
+    "frames": 60
+  },
+  {
+    "source": "money-a.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 60,
+    "frames": 30
+  },
+  {
+    "source": "money-b.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 90,
+    "frames": 30
+  },
+  {
+    "source": "flex.mp4",
+    "duration": 1.5,
+    "type": "motion",
+    "start": 0,
+    "start_frame": 120,
+    "frames": 45
+  },
+  {
+    "source": "flex.mp4",
+    "duration": 1.5,
+    "type": "motion",
+    "start": 5,
+    "start_frame": 165,
+    "frames": 45
+  },
+  {
+    "source": "social.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 210,
+    "frames": 30
+  },
+  {
+    "source": "all-0.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 240,
+    "frames": 30
+  },
+  {
+    "source": "all-1.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 270,
+    "frames": 30
+  },
+  {
+    "source": "all-2.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 300,
+    "frames": 30
+  },
+  {
+    "source": "all-3.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 330,
+    "frames": 30
+  },
+  {
+    "source": "barn-0.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 360,
+    "frames": 30
+  },
+  {
+    "source": "barn-1.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 390,
+    "frames": 30
+  },
+  {
+    "source": "barn-2.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 420,
+    "frames": 30
+  },
+  {
+    "source": "barn-3.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 450,
+    "frames": 30
+  },
+  {
+    "source": "death-by-xoko-65a7m-0.gif",
+    "duration": 1.5,
+    "type": "motion",
+    "start": 0.5,
+    "start_frame": 480,
+    "frames": 45
+  },
+  {
+    "source": "jump-1.jpg",
+    "duration": 0.75,
+    "type": "still",
+    "start_frame": 525,
+    "frames": 23
+  },
+  {
+    "source": "jump-2.jpg",
+    "duration": 0.75,
+    "type": "still",
+    "start_frame": 548,
+    "frames": 22
+  },
+  {
+    "source": "walk-0.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 570,
+    "frames": 30
+  },
+  {
+    "source": "walk-1.jpg",
+    "duration": 1.5,
+    "type": "still",
+    "start_frame": 600,
+    "frames": 45
+  },
+  {
+    "source": "walk-2.jpg",
+    "duration": 0.75,
+    "type": "still",
+    "start_frame": 645,
+    "frames": 23
+  },
+  {
+    "source": "walk-3.jpg",
+    "duration": 0.75,
+    "type": "still",
+    "start_frame": 668,
+    "frames": 22
+  },
+  {
+    "source": "give-0.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 690,
+    "frames": 30
+  },
+  {
+    "source": "give-1.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 720,
+    "frames": 30
+  },
+  {
+    "source": "give-2.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 750,
+    "frames": 30
+  },
+  {
+    "source": "give-3.jpg",
+    "duration": 1,
+    "type": "still",
+    "start_frame": 780,
+    "frames": 30
+  },
+  {
+    "source": "end.jpg",
+    "duration": 3,
+    "type": "still",
+    "start_frame": 810,
+    "frames": 90
+  }
+]
