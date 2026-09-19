@@ -1,0 +1,732 @@
+[
+  {
+    "asset": "Assets/Feed/1.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/1.jpg",
+    "source_file": "Assets/Feed/1.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it.",
+    "sha256": "30fee98521deaecb46837d5e8e66f632ecde15be41a63f105704921b25131041",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/2.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/2.jpg",
+    "source_file": "Assets/Feed/2.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "eec3641efd7b20da7648b85a4d31d1e22b418f64f2f779482ca57d8eafbf6a68",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/4.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/4.jpg",
+    "source_file": "Assets/Feed/4.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "2286eab31f8c080e1d44f485242f650c1289fc79b493b050b6d068a0ad08257a",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/cover.png",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/cover.png",
+    "source_file": "Assets/Feed/cover.png",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "c7da132b40faa8c4d09ff26b4262e4757026989ce2cb5404d9c8653911ca9965",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/poster-01.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-01.jpg",
+    "source_file": "Assets/Feed/poster-01.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it.",
+    "sha256": "30fee98521deaecb46837d5e8e66f632ecde15be41a63f105704921b25131041",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/poster-02.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-02.jpg",
+    "source_file": "Assets/Feed/poster-02.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it.",
+    "sha256": "eec3641efd7b20da7648b85a4d31d1e22b418f64f2f779482ca57d8eafbf6a68",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/poster-03.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-03.jpg",
+    "source_file": "Assets/Feed/poster-03.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it.",
+    "sha256": "7def2b0b3b9e5f2788e2e2428a7c64c2026460d041c66e70443c79ea3ba29a17",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/poster-04.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-04.jpg",
+    "source_file": "Assets/Feed/poster-04.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it.",
+    "sha256": "2286eab31f8c080e1d44f485242f650c1289fc79b493b050b6d068a0ad08257a",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/Feed/poster-05.jpg",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-05.jpg",
+    "source_file": "Assets/Feed/poster-05.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it.",
+    "sha256": "30fee98521deaecb46837d5e8e66f632ecde15be41a63f105704921b25131041",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-boss.webp",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Ad 3.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "VML Australia",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved. Reel: complete artwork fitted into deliberate pairs; no image-centre crop.",
+    "sha256": "b639897d0fb98c3314764a45857a507cbfd009b00f118fb455de9e23722461a9",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-credit.webp",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Ad 2.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "VML Australia",
+    "used_in": [
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "6e70e02a4026a7937e4eaa6c0d4988612f563a471a38d9e6deb3381224aeba7f",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-interest.webp",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Ad 1.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "VML Australia",
+    "used_in": [
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "f487b4ccaaf00183b93cd4c23a36fc0407eadb8e38a6c221a097a2d0c337a64a",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-master.webp",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "IMG-20260304-WA0050.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "VML Australia",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "index.html",
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved. Reel: complete artwork fitted into deliberate pairs; no image-centre crop.",
+    "sha256": "8c851f86c6f039ea9a1f3c868fe7687bc5e385daecfac5df0300f739dd43bf4c",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-product-motion.mp4",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "VID-20251028-WA0002.mp4",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Original MP4 copied unchanged; excerpt used in reel if listed in timeline.",
+    "sha256": "10dd891fce2dba34abb66046a12cb3e1b648e26d431bae0eb8f28f45ac058227",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-product-poster.webp",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "VID-20251028-WA0002.mp4",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Deliberately selected still from linked original motion, at 5.5s for Money Your Way or 4s for Zip Plus; complete frame.",
+    "sha256": "283110f606e825d41396c4263151df4507cc9e42d87d3fa8d54970b4de759644",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/flex-travel.webp",
+    "project": "That’s A Flex / Zip Plus",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Performance Max 1.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "VML Australia",
+    "used_in": [
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "3df13a04a376165518a980287e3dee8998560954ea93f1cc5f3a498bc8b95a9f",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-0.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131097.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved. Reel: complete artwork fitted into deliberate pairs; no image-centre crop.",
+    "sha256": "8ecd4fd09e7e1bf0bf3091db60ace461c45fae8f58299095fd28a0f4f92863b4",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-1.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131098.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "index.html",
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved. Reel: complete artwork fitted into deliberate pairs; no image-centre crop.",
+    "sha256": "bbba43a663bbb30bb497976b56a4185fe703bf642f7930252c985121047e226a",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-2.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131099.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved. Reel: complete artwork fitted into deliberate pairs; no image-centre crop.",
+    "sha256": "029f908fdcbfcb68cdeec013ec8d99f2d1a2fa5ca9f2846dd0507d4a74109fb7",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-3.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131100.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "1349d53471e7bdcb91182188518c82298b5c3624078264f8aee1b5e91cea54d3",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-4.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131101.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "966ccb47d62ecc0f0871c9cd876a6abcf493749ffa739a22ac0125a3003b61ae",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-5.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131102.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "66e9f9282e03ae4189523b650434dc3014a61cdf86f02ef0d97d2bcf2a6c9744",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-6.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131103.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "00873eb95e2aa7a6e3db21ae58cc159d3f9fdf32e26093ce4273f1b6044ee77b",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-freedom.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Money Your Way 3.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "4dfd8d24e949aea7516b06e2c93a4f1a26f79418e4ef289057ceddd7e8f889e6",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-momentum.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Money Your Way 2.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "6bd2a1d70a838bef3f6f0887eca3f07d276bc7765b72047e5a5fcc6e7a765802",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-motion-poster.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "VID-20260304-WA0030.mp4",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Deliberately selected still from linked original motion, at 5.5s for Money Your Way or 4s for Zip Plus; complete frame.",
+    "sha256": "e7aa9c44873220709887029572caf2bc37ca8d289a6cbdfb6add51c089df5a4f",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-motion.mp4",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "VID-20260304-WA0030.mp4",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Original MP4 copied unchanged; excerpt used in reel if listed in timeline. Reel: complete artwork fitted into deliberate pairs; no image-centre crop.",
+    "sha256": "0b5a570378ad05f7c6b551a778f1fb327c610b9a15b65015e1d7a211c9a07531",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/drive/money-portrait.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "Money Your Way 1.jpg",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Resized only if over 1800px; WebP conversion, full composition preserved.",
+    "sha256": "bebaef94d613d0b94a75b76c7ccc027b7cb5d9c5e3d2bf045ff7658491186b30",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/allheartsecommerce-0.webp",
+    "project": "allHearts",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/allheartsecommerce",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Megan Pope",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "d230e6e5351c6423adf2c3daeba65e4db55d301a894450fbaf62ea1a0b53f728",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/allheartsecommerce-1.webp",
+    "project": "allHearts",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/allheartsecommerce",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Megan Pope",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "e1ab28b66ae7ec0b4bf0b3fce9f28670ba4db1c4b0e253550bb91f78c81e9cf6",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/allheartsecommerce-2.webp",
+    "project": "allHearts",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/allheartsecommerce",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Megan Pope",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "fe0d2b97b10089e474e9741ad1cbf9aa0d1129cda3cebd5f90a93870fec2fdbf",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/barnardosbuddies-2.webp",
+    "project": "Barnardos Buddies",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/barnardosbuddies",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Barnardos Australia",
+    "creator_agency": "Alana Indratheb",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "7309c89d5ada407b15d7c76a1512aae379ec5be8a4001d22d101b329515e621b",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/home-2.webp",
+    "project": "Barnardos Buddies",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Barnardos Australia",
+    "creator_agency": "Alana Indratheb",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "07268e01c8bf51573d2b5ad0b2fda72e41cabac1e4fa0d88ca1cf7ef0c467451",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/jump-rope.gif",
+    "project": "Jump Rope",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/death-by-xoko-65a7m",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Individual creator not stated in original portfolio",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Excerpt of original GIF, source time 1.0–3.2s, preserving complete frame and original frame duration.",
+    "sha256": "d6186a947c638e306b494bb06610cda6ada03e0f33ecface2a81ee0f571c2f37",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/earlier/walkyourway-1.webp",
+    "project": "Walk Your Way",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/walkyourway",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Individual creator not stated in original portfolio",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Complete artwork fitted, paired or scaled in reel; Jump Rope trimmed to source frames 2–7. No centre crop.",
+    "sha256": "0ff8221270aa588894a5e443b544fd4ac1b9831841164c3e78056c3da2a4fb06",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/reel/jazz-farey-showreel.mp4",
+    "project": "Approved multi-project compilation",
+    "source_page": "",
+    "source_file": "Assets/reel/jazz-farey-showreel.mp4",
+    "publisher_or_rightsholder": "Underlying asset owners below",
+    "creator_agency": "Compilation edit; source credits below",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Edited 900-frame, 30.000-second compilation; poster from opening Money Your Way pair; original synthesized instrumental bed by build script.",
+    "sha256": "545f07e41a72f63a19e43563147671ae772bfa298e1d790a7bd52633a7f615db",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/reel/poster.webp",
+    "project": "Approved multi-project compilation",
+    "source_page": "",
+    "source_file": "Assets/reel/poster.webp",
+    "publisher_or_rightsholder": "Underlying asset owners below",
+    "creator_agency": "Compilation edit; source credits below",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Edited 900-frame, 30.000-second compilation; poster from opening Money Your Way pair; original synthesized instrumental bed by build script.",
+    "sha256": "8a5622ded78e7f52a4bde918dcc4ec62192aa27c7c30dba541d7efd4bd5eb1e1",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/sources/taylor-flex-ooh.webp",
+    "project": "That’s A Flex",
+    "source_page": "https://www.tayloraranki.com/zipplus",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co.; original publisher Taylor Aranki",
+    "creator_agency": "VML; Taylor Aranki case study. Photography credit not stated.",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json"
+    ],
+    "cropped_or_edited": "Browser image capture (download failed), outer browser margins removed; full montage and four individual OOH panels isolated. Rectangles in build.py. Not an original-resolution download.",
+    "sha256": "b7b1592c60830ce0f61a75acab6239acb2afbf06133505bbce8da757dd397dea",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/allhearts.webp",
+    "project": "allHearts",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/allheartsecommerce",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Megan Pope",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it. Homepage derivative of Assets/earlier/allheartsecommerce-1.webp.",
+    "sha256": "636d15033a7ab19d1e1150b3f6e460b7cbf2a5d9a2662a403c58c8bed2e61a52",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/barnardos.webp",
+    "project": "Barnardos Buddies",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Barnardos Australia",
+    "creator_agency": "Alana Indratheb",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it. Homepage derivative of Assets/earlier/home-2.webp.",
+    "sha256": "7b359a62edc17ba9aa33d566b318dedb34fc8a77a999e3673a2f7727238e104c",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/built-for-feed.webp",
+    "project": "Built for Feed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/cover.png",
+    "source_file": "Assets/Feed/cover.png",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it. Homepage derivative of Assets/Feed/cover.png.",
+    "sha256": "8bcc982836bff327d0b882f700befeca78a57ed80d64bbda247389399d31a7e1",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/flex-campaign.mp4",
+    "project": "That’s A Flex",
+    "source_page": "https://www.linkedin.com/posts/robert-pregardt-paur_videocontent-socialmediadesign-brandanimation-activity-7310062806643474432-uIIO/",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co.; original publisher Robert Pregardt-Paur",
+    "creator_agency": "VML Australia; Robert Pregardt-Paur, motion design and animation",
+    "used_in": [
+      "30-second reel; timing in reel-timeline.json",
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Full original in case study; trimmed and individual complete panels isolated/recomposed in reel. Poster extracted. No new Robert file acquired in this pass.",
+    "sha256": "357c27bef0e5ea07443a7ef32aae8683b1cb0a7cec75e85fb5da1c75baa5a636",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/flex-motion-poster.webp",
+    "project": "That’s A Flex",
+    "source_page": "https://www.linkedin.com/posts/robert-pregardt-paur_videocontent-socialmediadesign-brandanimation-activity-7310062806643474432-uIIO/",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co.; original publisher Robert Pregardt-Paur",
+    "creator_agency": "VML Australia; Robert Pregardt-Paur, motion design and animation",
+    "used_in": [
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Full original in case study; trimmed and individual complete panels isolated/recomposed in reel. Poster extracted. No new Robert file acquired in this pass.",
+    "sha256": "ee53a80785dbfa87717da3e8b7e53d9a08a69b5b093390de65987d5b71cd70a0",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/jump-rope.webp",
+    "project": "Jump Rope",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Individual creator not stated in original portfolio",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it. Homepage derivative of Assets/earlier/home-3.webp.",
+    "sha256": "6604038b64ed034662be4d4cd21b163eb524d81cd70985443b08998027b9c2d2",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Assets/work/walk-your-way.webp",
+    "project": "Walk Your Way",
+    "source_page": "https://iris-platinum-fzgk.squarespace.com/work/walkyourway",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Heart Foundation Australia",
+    "creator_agency": "Individual creator not stated in original portfolio",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Existing asset retained; page rendering may scale it. Homepage derivative of Assets/earlier/walkyourway-1.webp.",
+    "sha256": "5ef7d310daaf54ab7580f485c46241bdf2ce757c414aef96535c3bd6a025563c",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "project": "Portfolio",
+    "source_page": "",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Jazz Farey",
+    "creator_agency": "Not established",
+    "used_in": [
+      "better.html",
+      "built-for-feed.html",
+      "finding-winners-faster.html",
+      "index.html",
+      "money-your-way.html",
+      "thats-a-flex.html"
+    ],
+    "cropped_or_edited": "Existing public embed or social metadata; unchanged.",
+    "sha256": null,
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "project": "Built for Feed",
+    "source_page": "",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Not established",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Existing public embed or social metadata; unchanged.",
+    "sha256": null,
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "project": "Built for Feed",
+    "source_page": "",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Not established",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Edited 900-frame, 30.000-second compilation; poster from opening Money Your Way pair; original synthesized instrumental bed by build script.",
+    "sha256": null,
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "project": "Built for Feed",
+    "source_page": "",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Not established",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Edited 900-frame, 30.000-second compilation; poster from opening Money Your Way pair; original synthesized instrumental bed by build script.",
+    "sha256": null,
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "project": "Built for Feed",
+    "source_page": "",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Not established",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Edited 900-frame, 30.000-second compilation; poster from opening Money Your Way pair; original synthesized instrumental bed by build script.",
+    "sha256": null,
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  },
+  {
+    "asset": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "project": "Built for Feed",
+    "source_page": "",
+    "source_file": "Original published campaign asset; exact file and publisher recorded in ledger",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Not established",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Edited 900-frame, 30.000-second compilation; poster from opening Money Your Way pair; original synthesized instrumental bed by build script.",
+    "sha256": null,
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
+  }
+]

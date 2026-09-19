@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Mobile preview · Jazz Farey</title><style>body{margin:0;background:#e8e8e5;font:14px system-ui;color:#111}header{padding:16px;text-align:center}a{color:inherit}iframe{display:block;width:390px;max-width:100%;height:844px;border:0;margin:0 auto 24px;background:white}</style></head><body><header><label for="preview-width">Mobile width</label> <select id="preview-width" aria-label="Mobile width"><option>375</option><option selected>390</option><option>430</option></select> · <a href="index.html">Open full site</a></header><iframe src="index.html" title="Portfolio at mobile width" allow="fullscreen" allowfullscreen></iframe><script>
+const params=new URLSearchParams(location.search);
+const widths=['375','390','430'];
+const width=widths.includes(params.get('width'))?params.get('width'):'390';
+const widthSelect=document.getElementById('preview-width');
+widthSelect.value=width;
+document.querySelector('iframe').style.width=width+'px';
+widthSelect.addEventListener('change',()=>{document.querySelector('iframe').style.width=widthSelect.value+'px';});
+const pages=['index.html','money-your-way.html','thats-a-flex.html','built-for-feed.html','finding-winners-faster.html'];
+const sections=['work','earlier-title','campaign-hero','campaign-gallery','campaign-media','campaign-motion','creator-gallery','creative-system'];
+const page=pages.includes(params.get('page'))?params.get('page'):'index.html';
+const section=sections.includes(params.get('section'))?'#'+params.get('section'):'';
+document.querySelector('iframe').src=page+section;
+document.querySelector('header a').href=page+section;
+</script></body></html>

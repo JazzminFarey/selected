@@ -1,0 +1,64 @@
+/* Original portfolio typography and asymmetric work grid; campaign imagery leads. */
+.home-hero { padding-top:112px; padding-bottom:32px; display:flex; align-items:flex-end; justify-content:space-between; gap:24px; }
+.home-hero h1 { font-size:clamp(64px,8.7vw,126px); letter-spacing:-.065em; line-height:.95; font-weight:600; }
+.home-intro { max-width:260px; padding-bottom:5px; }
+.home-intro h2 { font-size:clamp(17px,1.8vw,24px); line-height:1.25; font-weight:400; letter-spacing:-.025em; }
+.showreel { display:block; width:100%; aspect-ratio:16/9; background:#190622; object-fit:contain; }
+.reel-foot { display:flex; justify-content:space-between; gap:24px; margin-top:12px; font-size:11px; color:var(--muted); }
+.reel-foot > span { flex-shrink:0; }
+.reel-foot details { max-width:560px; text-align:right; }
+.reel-foot summary { cursor:pointer; color:var(--ink); }
+.reel-foot details p { margin-top:12px; text-align:left; }
+.about-short { display:grid; grid-template-columns:1fr 2fr; gap:36px; padding-block:52px 12px; }
+.about-short h2 { font-size:clamp(26px,3vw,40px); font-weight:500; letter-spacing:-.04em; }
+.about-short p { font-size:clamp(17px,1.65vw,22px); line-height:1.5; max-width:54ch; }
+.home #work { padding-block:64px; }
+.home .showcase { align-items:stretch; row-gap:48px; }
+.home .proj { display:flex; flex-direction:column; min-width:0; }
+.home .money-tile .proj-image { aspect-ratio:1; }
+.home .flex-tile .proj-image { aspect-ratio:5/7; }
+.home .money-tile img,.home .flex-tile img { object-fit:cover; transform:none; filter:none; }
+.home .creator-panels { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); aspect-ratio:7/5; background:#e7e7e3; align-items:center; gap:4px; }
+.home .creator-panels img { width:100%; height:auto; object-fit:contain; transform:none; filter:none; }
+.home .system-tile .proj-image { aspect-ratio:1; }
+.home .system-tile .proj-typo { padding:clamp(22px,3vw,44px); }
+.home .system-tile .bigword { font-size:clamp(38px,5.4vw,82px); }
+.home .proj-foot { margin-top:16px; gap:8px; }
+.home .proj-foot .meta { font-size:10px; letter-spacing:.07em; }
+.earlier-work { padding-bottom:72px; }
+.earlier-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:48px 28px; }
+.visual-work { min-width:0; }
+.earlier-image { overflow:hidden; aspect-ratio:4/3; background:#eee; }
+.earlier-image img { display:block; width:100%; height:100%; object-fit:cover; }
+.supporting-work { display:flex; gap:6px; margin-top:6px; }
+.supporting-work img { display:block; width:100%; min-width:0; flex:1; height:auto; aspect-ratio:4/3; object-fit:cover; }
+.supporting-work img:only-child { aspect-ratio:2/1; object-fit:contain; background:#efefed; }
+.work-label { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:baseline; margin-top:18px; }
+.work-label h3 { font-size:24px; letter-spacing:-.03em; font-weight:500; }
+.work-label span,.work-credit { font-size:11px; color:var(--muted); }
+.work-credit { margin-top:5px; }
+.building-section { padding-block:32px 48px; border-top:1px solid var(--divider); }
+.building-section a { display:flex; align-items:center; gap:32px; width:fit-content; margin-block:12px; }
+.building-section h2 { font-size:clamp(40px,5vw,64px); letter-spacing:-.045em; font-weight:500; }
+.building-section a span { font-size:32px; }
+.building-section > p:last-child { color:var(--muted); }
+.home .contact { padding-top:40px; }
+#building,#contact,#work { scroll-margin-top:90px; }
+@media(max-width:759px) {
+ .home-hero { padding-top:106px; padding-bottom:24px; display:block; }
+ .home-intro { max-width:none; margin-top:16px; padding:0; }
+ .home-intro h2 { font-size:17px; }
+ .about-short { grid-template-columns:1fr; gap:12px; padding-top:36px; }
+ .about-short p { font-size:18px; }
+ .home #work { padding-block:44px; }
+ .home .showcase { row-gap:32px; }
+ .home .flex-tile .proj-image { aspect-ratio:938/1327; }
+ .home .creator-panels { aspect-ratio:3/2; }
+ .home .system-tile .proj-image { aspect-ratio:4/3; }
+ .home .system-tile .bigword { font-size:clamp(48px,13vw,76px); }
+ .home .proj-foot .meta { font-size:9px; }
+ .earlier-grid { grid-template-columns:1fr; gap:36px; }
+ .earlier-work { padding-bottom:48px; }
+ .section-head { flex-wrap:wrap; gap:8px; margin-bottom:24px; }
+ .reel-foot { gap:12px; }
+}
