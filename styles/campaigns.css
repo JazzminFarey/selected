@@ -29,3 +29,7 @@
 .money-motion figcaption,.flex-product-pair figcaption { font-size:12px; color:var(--muted); margin-top:12px; }
 .flex-product-pair { display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:center; margin-top:40px; }
 @media(max-width:760px) { .money-hero-triptych,.campaign-triple,.flex-product-pair { grid-template-columns:1fr; gap:20px; } .money-product-grid { gap:12px; } }
+
+/* Original Money Your Way brand treatment and creative range. */
+.money-brand-assets { display:grid; gap:16px; margin-top:24px; }
+.money-brand-assets img { display:block; width:100%; height:auto; }

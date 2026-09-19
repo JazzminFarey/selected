@@ -2,148 +2,211 @@
   {
     "composition": "money-motion",
     "start": 0,
-    "end": 2.4,
+    "end": 1.4,
     "project": "Money Your Way",
-    "frames": 72
+    "frames": 42
   },
   {
-    "composition": "flex-pair",
-    "start": 2.4,
-    "end": 3.2,
-    "project": "That\u2019s A Flex",
-    "frames": 24
+    "composition": "money-single",
+    "start": 1.4,
+    "end": 2,
+    "project": "Money Your Way",
+    "frames": 18
   },
   {
     "composition": "flex-open",
-    "start": 3.2,
-    "end": 4.8,
+    "start": 2,
+    "end": 3.1,
     "project": "That\u2019s A Flex",
-    "frames": 48
+    "frames": 33
   },
   {
-    "composition": "money-pair",
-    "start": 4.8,
-    "end": 6.3,
-    "project": "Money Your Way",
-    "frames": 45
-  },
-  {
-    "composition": "creator",
-    "start": 6.3,
-    "end": 7.8,
-    "project": "Built for Feed",
-    "frames": 45
-  },
-  {
-    "composition": "mugs",
-    "start": 7.8,
-    "end": 10,
-    "project": "allHearts",
-    "frames": 66
-  },
-  {
-    "composition": "products",
-    "start": 10,
-    "end": 11,
-    "project": "allHearts",
-    "frames": 30
-  },
-  {
-    "composition": "buddies",
-    "start": 11,
-    "end": 12,
-    "project": "Barnardos Buddies",
-    "frames": 30
-  },
-  {
-    "composition": "posters",
-    "start": 12,
-    "end": 13.2,
-    "project": "Barnardos Buddies",
-    "frames": 36
-  },
-  {
-    "composition": "jump",
-    "start": 13.2,
-    "end": 15.4,
-    "project": "Jump Rope",
-    "frames": 66
-  },
-  {
-    "composition": "walk",
-    "start": 15.4,
-    "end": 17.4,
-    "project": "Walk Your Way",
-    "frames": 60
-  },
-  {
-    "composition": "ooh",
-    "start": 17.4,
-    "end": 19.2,
-    "project": "That\u2019s A Flex",
-    "frames": 54
-  },
-  {
-    "composition": "money-motion-return",
-    "start": 19.2,
-    "end": 21,
-    "project": "Money Your Way",
-    "frames": 54
-  },
-  {
-    "composition": "flex-grid",
-    "start": 21,
-    "end": 22.6,
-    "project": "That\u2019s A Flex",
-    "frames": 48
-  },
-  {
-    "composition": "ooh-retail",
-    "start": 22.6,
-    "end": 23.2,
+    "composition": "flex-pair",
+    "start": 3.1,
+    "end": 3.7,
     "project": "That\u2019s A Flex",
     "frames": 18
   },
   {
-    "composition": "money-single",
-    "start": 23.2,
-    "end": 23.7,
+    "composition": "creator",
+    "start": 3.7,
+    "end": 4.6,
+    "project": "Built for Feed",
+    "frames": 27
+  },
+  {
+    "composition": "mugs",
+    "start": 4.6,
+    "end": 5.6,
+    "project": "allHearts",
+    "frames": 30
+  },
+  {
+    "composition": "shirt",
+    "start": 5.6,
+    "end": 6.2,
+    "project": "allHearts",
+    "frames": 18
+  },
+  {
+    "composition": "tote",
+    "start": 6.2,
+    "end": 6.8,
+    "project": "allHearts",
+    "frames": 18
+  },
+  {
+    "composition": "products",
+    "start": 6.8,
+    "end": 8,
+    "project": "allHearts",
+    "frames": 36
+  },
+  {
+    "composition": "posters",
+    "start": 8,
+    "end": 9.3,
+    "project": "Barnardos Buddies",
+    "frames": 39
+  },
+  {
+    "composition": "buddies",
+    "start": 9.3,
+    "end": 10.2,
+    "project": "Barnardos Buddies",
+    "frames": 27
+  },
+  {
+    "composition": "social",
+    "start": 10.2,
+    "end": 11.3,
+    "project": "Barnardos Buddies",
+    "frames": 33
+  },
+  {
+    "composition": "jump",
+    "start": 11.3,
+    "end": 12.9,
+    "project": "Jump Rope",
+    "frames": 48
+  },
+  {
+    "composition": "book",
+    "start": 12.9,
+    "end": 13.5,
+    "project": "Jump Rope",
+    "frames": 18
+  },
+  {
+    "composition": "spread",
+    "start": 13.5,
+    "end": 14.3,
+    "project": "Jump Rope",
+    "frames": 24
+  },
+  {
+    "composition": "walk",
+    "start": 14.3,
+    "end": 15.5,
+    "project": "Walk Your Way",
+    "frames": 36
+  },
+  {
+    "composition": "walk-grid",
+    "start": 15.5,
+    "end": 16.5,
+    "project": "Walk Your Way",
+    "frames": 30
+  },
+  {
+    "composition": "money-motion-return",
+    "start": 16.5,
+    "end": 17.4,
     "project": "Money Your Way",
-    "frames": 15
-  },
-  {
-    "composition": "ooh-yellow",
-    "start": 23.7,
-    "end": 24.2,
-    "project": "That\u2019s A Flex",
-    "frames": 15
-  },
-  {
-    "composition": "money-man",
-    "start": 24.2,
-    "end": 24.7,
-    "project": "Money Your Way",
-    "frames": 15
-  },
-  {
-    "composition": "ooh-billboard",
-    "start": 24.7,
-    "end": 25.2,
-    "project": "That\u2019s A Flex",
-    "frames": 15
+    "frames": 27
   },
   {
     "composition": "flex-build",
-    "start": 25.2,
-    "end": 27.8,
+    "start": 17.4,
+    "end": 18.5,
     "project": "That\u2019s A Flex",
-    "frames": 78
+    "frames": 33
+  },
+  {
+    "composition": "creator-single",
+    "start": 18.5,
+    "end": 19.3,
+    "project": "Built for Feed",
+    "frames": 24
+  },
+  {
+    "composition": "creator",
+    "start": 19.3,
+    "end": 20.2,
+    "project": "Built for Feed",
+    "frames": 27
+  },
+  {
+    "composition": "social",
+    "start": 20.2,
+    "end": 21.3,
+    "project": "Barnardos Buddies",
+    "frames": 33
+  },
+  {
+    "composition": "products",
+    "start": 21.3,
+    "end": 22.4,
+    "project": "allHearts",
+    "frames": 33
+  },
+  {
+    "composition": "jump",
+    "start": 22.4,
+    "end": 23.5,
+    "project": "Jump Rope",
+    "frames": 33
+  },
+  {
+    "composition": "walk",
+    "start": 23.5,
+    "end": 24.6,
+    "project": "Walk Your Way",
+    "frames": 33
+  },
+  {
+    "composition": "money-man",
+    "start": 24.6,
+    "end": 25.3,
+    "project": "Money Your Way",
+    "frames": 21
+  },
+  {
+    "composition": "ooh-city",
+    "start": 25.3,
+    "end": 26,
+    "project": "That\u2019s A Flex",
+    "frames": 21
+  },
+  {
+    "composition": "money-single",
+    "start": 26,
+    "end": 26.7,
+    "project": "Money Your Way",
+    "frames": 21
   },
   {
     "composition": "flex-finish",
-    "start": 27.8,
-    "end": 30,
+    "start": 26.7,
+    "end": 28.6,
     "project": "That\u2019s A Flex",
-    "frames": 66
+    "frames": 57
+  },
+  {
+    "composition": "money-motion",
+    "start": 28.6,
+    "end": 30,
+    "project": "Money Your Way",
+    "frames": 42
   }
 ]

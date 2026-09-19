@@ -1,6 +1,6 @@
 import math,wave,struct,random,subprocess
 from pathlib import Path
-audio_dir=Path('/tmp/reel-correction');audio_dir.mkdir(exist_ok=True)
+audio_dir=Path(__file__).resolve().parents[2]/'.recovery-qa/audio';audio_dir.mkdir(parents=True,exist_ok=True)
 rate=24000;duration=30;random.seed(4);a=[]
 # Original restrained instrumental bed: soft harmonic tones, low pulse, no samples.
 for i in range(rate*duration):
@@ -12,5 +12,5 @@ for i in range(rate*duration):
  fade=min(1,t/.2,max(0,(30-t)/2));v=(pad+pulse+tick)*fade
  a.append(struct.pack('<h',int(max(-1,min(1,v))*32767)))
 with wave.open(str(audio_dir/'original-bed.wav'),'wb') as w:w.setnchannels(1);w.setsampwidth(2);w.setframerate(rate);w.writeframes(b''.join(a))
-p=Path(__file__).resolve().parents[2]/'Assets/reel/jazz-farey-showreel.mp4';tmp=p.with_name('temp.mp4')
-subprocess.run(['ffmpeg','-v','error','-y','-i',str(p),'-i',str(audio_dir/'original-bed.wav'),'-t','30','-c:v','copy','-c:a','aac','-b:a','96k','-movflags','+faststart',str(tmp)],check=True);tmp.replace(p)
+p=Path(__file__).resolve().parents[2]/'Assets/reel/jazz-farey-showreel.mp4';tmp=audio_dir/'showreel-with-audio.mp4'
+subprocess.run(['ffmpeg','-v','error','-y','-i',str(p),'-i',str(audio_dir/'original-bed.wav'),'-map','0:v:0','-map','1:a:0','-t','30','-c:v','copy','-c:a','aac','-b:a','96k','-movflags','+faststart',str(tmp)],check=True);tmp.replace(p)
