@@ -73,6 +73,6 @@
 .case-page .next{padding-block:32px 48px;border:0;max-width:1000px}
 .case-page .next .title{font-size:clamp(32px,4vw,52px)}
 .case-page .section-head{border:0}
-.case-page .reel-feed{max-width:480px;margin:auto}
+.case-page .reels-feed{max-width:480px;margin:auto}
 .case-page .reel-frame{border:0;border-radius:0}
 @media(max-width:759px){.case-page .project-head{padding-block:100px 32px}.case-page .project-title{font-size:44px}.case-page .project-lead{font-size:19px}.case-page .campaign-hero{margin-bottom:30px}.case-page .campaign-pair{gap:18px}.case-page .proj-block{padding-block:24px 32px}.case-page .t-body-lg{font-size:17px}.case-details .project-meta{grid-template-columns:1fr 1fr}.case-page .case-gallery{gap:14px}.case-page .campaign-pair{grid-template-columns:1fr;max-width:440px}.case-page .money-product-grid{grid-template-columns:1fr;max-width:440px}.case-page .case-gallery{grid-template-columns:1fr}.case-page .case-gallery .wide{grid-column:auto}}
