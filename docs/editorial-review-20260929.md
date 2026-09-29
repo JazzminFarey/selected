@@ -1,3 +1,15 @@
+# Case-page hierarchy pass — 29 September 2026
+
+Reference inspected: first GitHub commit 8ca42b81771bf06d3b0a7427db5aed3599bff347, Money Your Way case, including rendered desktop view. This pass changes case pages only; the approved homepage, homepage CSS, shared CSS and homepage motion script are unchanged.
+
+Restored original left-hand title/brief and right-hand project-facts opening. Client, year and contribution are visible immediately. Additional channels, outputs and collaborator credits remain visible below the case; removed the disclosure that hid them. Retained current source-backed copy rather than restoring older unverified claims.
+
+Replaced accumulated campaign CSS overrides with one responsive case-page system. Balanced media sizes, paired complete Money Your Way executions, paired supporting galleries, consistent heading/body columns, compact next-project navigation and contact footer. Creator executions use a three-column desktop gallery, two columns on tablet and a single mobile column. All embeds retain direct source links. No new artwork created.
+
+Hosted visual QA and exact commit are recorded in PR #2. Mobile checks are browser-width frames, not physical devices.
+
+---
+
 # Robert reference pass — 29 September 2026
 
 Supersedes the simplification pass below. Inspected Robert’s homepage and Canva case visually. Adopted the wide motion/intro split, landscape thumbnail grid with hover titles (touch titles overlaid), and title → media → explanation case hierarchy. Preserved JF navigation and Better project tile.

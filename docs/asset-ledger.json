@@ -504,5 +504,19 @@
     "cropped_or_edited": "Native media in cases. Homepage landscape crops: Money Your Way top-aligned headline/portrait crop (lower logo outside thumbnail); Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign artwork recreated.",
     "sha256": "8ecd4fd09e7e1bf0bf3091db60ace461c45fae8f58299095fd28a0f4f92863b4",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
+  },
+  {
+    "asset": "Assets/drive/money-2.webp",
+    "project": "Money Your Way",
+    "source_page": "User-provided Google Drive; exact source filename recorded below",
+    "source_file": "1000131099.png",
+    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
+    "creator_agency": "Individual creator/agency not established for this exact file",
+    "used_in": [
+      "money-your-way.html"
+    ],
+    "cropped_or_edited": "Original square campaign execution shown in full in a two-image case opening.",
+    "sha256": "029f908fdcbfcb68cdeec013ec8d99f2d1a2fa5ca9f2846dd0507d4a74109fb7",
+    "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   }
 ]
