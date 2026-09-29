@@ -1,23 +1,28 @@
-/* Compact editorial portfolio: artwork first, motion inside the cases. */
-.home-hero{padding-top:110px;padding-bottom:24px;display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
-.home-hero h1{font-size:clamp(64px,8vw,112px);font-weight:600;line-height:.94;letter-spacing:-.065em}
-.home-intro{max-width:255px}.home-intro h2{font-size:22px;line-height:1.25;font-weight:400;letter-spacing:-.025em}
-.about-short{display:grid;grid-template-columns:1fr 2fr;gap:32px;padding-block:24px 32px;border-bottom:1px solid var(--divider)}
-.about-short h2{font-size:26px;font-weight:500;letter-spacing:-.035em}.about-short p{font-size:17px;line-height:1.5;max-width:62ch}
-.home #work{padding-block:36px 56px}.home .section-head{margin-bottom:22px}.home .section-head h2{font-size:23px}
-.home .showcase{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px}.home .showcase .proj{grid-column:auto;min-width:0}
-.home .proj-image{aspect-ratio:8/5}.home .proj-image img{filter:none;transform:none;object-fit:contain;min-width:0}
-.home .money-cover{display:grid;grid-template-columns:1fr 1fr;align-items:center;background:#ece9e3}
-.home .money-cover img{height:auto}.home .flex-cover{display:flex;justify-content:center;background:#c9a6f9;padding:0 5%;gap:2%}
-.home .flex-cover img{width:49%;height:100%}.home .creator-panels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;background:#eeece7}
-.home .creator-panels img{width:100%;height:100%}.home .system-tile .proj-typo{padding:24px 30px}.home .system-tile .bigword{font-size:clamp(44px,5.2vw,74px)}
-.home .proj-foot{margin-top:12px;gap:8px}.home .proj-foot .t{font-size:22px}.home .proj-foot .meta{font-size:9px;letter-spacing:.045em}
-.earlier-work{padding-bottom:56px}.earlier-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px}
-.visual-work{min-width:0;display:block;color:inherit;text-decoration:none}.earlier-image{aspect-ratio:8/5;overflow:hidden;background:#eeece7}
-.earlier-image img{display:block;width:100%;height:100%;object-fit:contain;transition:filter .2s}.visual-work:hover img{filter:brightness(.96)}
-.work-label{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-top:12px}.work-label h3{font-size:22px;font-weight:500;letter-spacing:-.03em}.work-label span,.work-credit{font-size:11px;color:var(--muted)}.work-credit{margin-top:5px}
-.building-section{padding-block:32px 40px;border-top:1px solid var(--divider)}.building-section a{display:flex;align-items:center;gap:32px;width:fit-content;margin-block:12px}.building-section h2{font-size:clamp(40px,5vw,64px);font-weight:500;letter-spacing:-.045em}.building-section a span{font-size:32px}.building-section>p:last-child{color:var(--muted)}.home .contact{padding-top:40px}
-#building,#contact,#work,#earlier-title{scroll-margin-top:90px}
+/* One introduction and one continuous, unframed selection. */
+.home-hero{display:block;text-align:center;padding-block:120px 60px}
+.home-hero h1{font-size:clamp(60px,7.5vw,104px);font-weight:600;line-height:1;letter-spacing:-.065em;margin:0}
+.home-introduction{max-width:680px;margin:28px auto 0}
+.home-introduction h2{font-size:25px;letter-spacing:-.035em;font-weight:500;margin-bottom:12px}
+.home-introduction p{font-size:17px;line-height:1.55;text-wrap:pretty}
+.home #work{padding-block:0 64px;max-width:1280px}
+.home .showcase{grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px}
+.home .showcase>*{grid-column:auto;min-width:0}
+.home .proj-image,.earlier-image{display:block;aspect-ratio:1;overflow:hidden;background:none;padding:0}
+.home .proj-image img,.earlier-image img{display:block;width:100%;height:100%;object-fit:cover;transform:none;filter:none;transition:opacity .2s}
+.home .money-cover img{object-fit:contain}
+.home .flex-cover img{object-position:50% 32%}
+.home .creator-panels img{object-position:50% 24%}
+.home .proj:hover img,.visual-work:hover img{transform:none;filter:none;opacity:.93}
+.home .proj-foot,.work-label{display:block;margin-top:12px}
+.home .proj-foot .t,.work-label h3{font-family:var(--sans);font-size:20px;line-height:1.2;letter-spacing:-.025em;font-weight:500}
+.visual-work{display:block;color:inherit;text-decoration:none}
+.home .proj-typo{padding:28px;justify-content:center}
+.home .proj-typo .bigword{font-size:clamp(40px,4.5vw,64px);line-height:.96;transform:none}
+.better-cover{display:grid!important;place-items:center;background:#e9e5dc!important}
+.better-cover span{font-size:clamp(48px,5.7vw,82px);font-weight:600;letter-spacing:-.07em}
+.home .contact{padding-top:24px}
+#work,#contact{scroll-margin-top:90px}
 .proj:focus-visible,.visual-work:focus-visible{outline:2px solid var(--ink);outline-offset:6px}
-@media(max-width:759px){.home-hero{padding-top:100px;display:block;padding-bottom:18px}.home-intro{max-width:none;margin-top:14px}.home-intro h2{font-size:18px}.about-short{grid-template-columns:1fr;gap:10px;padding-block:18px 24px}.about-short h2{font-size:23px}.about-short p{font-size:16px}.home #work{padding-block:28px 40px}.home .showcase,.earlier-grid{grid-template-columns:1fr;gap:26px}.home .system-tile .bigword{font-size:clamp(44px,12vw,68px)}.home .system-tile .proj-typo{padding:20px 24px}.home .proj-foot .t,.work-label h3{font-size:21px}.section-head{flex-wrap:wrap;gap:8px}.earlier-work{padding-bottom:40px}}
-@media(prefers-reduced-motion:reduce){.home *, .home *::before,.home *::after{transition:none!important;animation:none!important}}
+@media(max-width:1000px) and (min-width:640px){.home .showcase{grid-template-columns:repeat(2,minmax(0,1fr))}.home .proj-typo .bigword{font-size:clamp(48px,7vw,68px)}}
+@media(max-width:639px){.home-hero{padding-block:102px 38px}.home-hero h1{font-size:clamp(48px,12vw,72px)}.home-introduction{margin-top:24px}.home-introduction h2{font-size:22px}.home-introduction p{font-size:16px;line-height:1.5}.home .showcase{grid-template-columns:1fr;gap:30px}.home #work{max-width:490px;padding-bottom:48px}.home .proj-typo .bigword{font-size:clamp(54px,15vw,76px)}.better-cover span{font-size:80px}.home .proj-foot .t,.work-label h3{font-size:21px}}
+@media(prefers-reduced-motion:reduce){.home *{transition:none!important}}

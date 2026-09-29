@@ -44,3 +44,35 @@
 .measurement-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-block:32px}.measurement-grid h3{font-size:20px;font-weight:500;margin-bottom:12px}.measurement-grid p{font-size:17px;line-height:1.5}.growth-reading{border-top:1px solid var(--divider)}
 .motion-disclosure{margin:24px auto;max-width:900px}.motion-disclosure summary{cursor:pointer;font-size:15px;padding-block:14px;border-top:1px solid var(--divider)}.motion-disclosure img{display:block;width:100%;height:auto}
 @media(max-width:759px){.project-head{padding-top:100px;gap:22px}.project-meta{gap:16px}.project-meta .v.small{font-size:13px}.money-hero-triptych{grid-template-columns:repeat(3,1fr);gap:4px}.campaign-triple{grid-template-columns:1fr 1fr;gap:12px}.campaign-triple img:last-child{grid-column:1/-1;max-width:70%;margin:auto}.campaign-pair{grid-template-columns:1fr 1fr;gap:12px}.campaign-pair img{max-height:none}.system-panel .proj-typo{min-height:300px}.case-gallery{gap:12px}.case-gallery .wide{grid-column:1/-1}.results-grid{grid-template-columns:1fr;gap:24px}.results-grid>div{display:grid;grid-template-columns:105px 1fr;gap:16px;align-items:center}.results-grid p{margin:0}.measurement-grid{grid-template-columns:1fr;gap:22px}.earlier-hero img{max-height:none}}
+
+/* September review: title, creative, story, then secondary detail. */
+.case-page .project-head{display:block;text-align:center;padding-block:120px 42px;max-width:980px}
+.case-client{font-size:14px;color:var(--muted);margin-bottom:16px}
+.case-page .project-title{font-size:clamp(44px,6vw,76px);line-height:1.04;margin-bottom:20px;letter-spacing:-.045em}
+.case-page .project-lead{font-size:clamp(19px,2vw,23px);line-height:1.4;max-width:48ch!important;margin:0 auto!important}
+.case-page .campaign-hero{margin-block:0 48px}
+.case-page .campaign-hero img{max-width:760px;max-height:none;object-fit:contain}
+.case-page .campaign-motion{margin:0 auto 48px;max-width:960px}
+.case-page .campaign-media{margin:0;padding:0}
+.case-page .proj-block{padding-block:32px 48px;max-width:1000px;border:0}
+.case-page .proj-split{grid-template-columns:1fr;gap:20px;max-width:720px;margin:auto}
+.case-page .proj-block .label{font-family:var(--sans);font-size:13px;text-transform:none;letter-spacing:0;margin-bottom:12px}
+.case-page .proj-block .h-mid{font-size:clamp(27px,3.2vw,40px);line-height:1.14;max-width:30ch}
+.case-page .t-body-lg{font-size:18px;line-height:1.6}
+.case-page .money-product-grid,.case-page .case-gallery{max-width:1000px;margin:0 auto 48px;gap:24px}
+.case-page .campaign-pair{max-width:840px;gap:32px;margin:8px auto 56px}
+.case-page .campaign-pair img{max-height:none;object-fit:contain}
+.case-page .money-motion{max-width:480px;margin:48px auto}
+.case-page .case-gallery figcaption{font-size:12px;margin-top:10px}
+.case-page .case-results,.case-page .growth-reading,.case-page .motion-disclosure summary{border:0}
+.case-page .case-results{max-width:1000px;padding-block:24px 48px}
+.case-details{max-width:1000px;margin:20px auto 50px}
+.case-details summary{font-size:14px;color:var(--muted);cursor:pointer;width:fit-content;padding-block:12px}
+.case-details .project-meta{position:static;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding-top:20px;text-align:left}
+.case-details .project-meta .attribution{max-width:75ch}
+.case-page .next{padding-block:32px 48px;border:0;max-width:1000px}
+.case-page .next .title{font-size:clamp(32px,4vw,52px)}
+.case-page .section-head{border:0}
+.case-page .reel-feed{max-width:480px;margin:auto}
+.case-page .reel-frame{border:0;border-radius:0}
+@media(max-width:759px){.case-page .project-head{padding-block:100px 32px}.case-page .project-title{font-size:44px}.case-page .project-lead{font-size:19px}.case-page .campaign-hero{margin-bottom:30px}.case-page .campaign-pair{gap:18px}.case-page .proj-block{padding-block:24px 32px}.case-page .t-body-lg{font-size:17px}.case-details .project-meta{grid-template-columns:1fr 1fr}.case-page .case-gallery{gap:14px}.case-page .campaign-pair{grid-template-columns:1fr;max-width:440px}.case-page .money-product-grid{grid-template-columns:1fr;max-width:440px}.case-page .case-gallery{grid-template-columns:1fr}.case-page .case-gallery .wide{grid-column:auto}}
