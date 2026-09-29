@@ -78,3 +78,9 @@
 @media(max-width:759px){.case-page .project-head{padding-block:100px 32px}.case-page .project-title{font-size:44px}.case-page .project-lead{font-size:19px}.case-page .campaign-hero{margin-bottom:30px}.case-page .campaign-pair{gap:18px}.case-page .proj-block{padding-block:24px 32px}.case-page .t-body-lg{font-size:17px}.case-details .project-meta{grid-template-columns:1fr 1fr}.case-page .case-gallery{gap:14px}.case-page .campaign-pair{grid-template-columns:1fr;max-width:440px}.case-page .money-product-grid{grid-template-columns:1fr;max-width:440px}.case-page .case-gallery{grid-template-columns:1fr}.case-page .case-gallery .wide{grid-column:auto}}
 
 .case-page .hooks,.case-page .hooks li{border:0}.case-page .hooks li{grid-template-columns:1fr;padding-block:12px}.case-page .hooks p{font-size:22px;line-height:1.4}
+
+/* Case hierarchy: title, primary media, explanation, supporting work. */
+.case-page .project-head{padding-block:118px 42px}.case-page .project-title{margin-bottom:0}.case-page .case-intro{max-width:1000px;padding-block:20px 32px}.case-page .case-intro .project-lead{max-width:56ch!important;text-align:left;margin:0!important;font-size:23px;line-height:1.5}
+.case-page .campaign-hero img{max-width:1000px;max-height:720px;object-fit:contain}.case-page .campaign-motion{max-width:1100px}.case-page .campaign-hero,.case-page .campaign-motion{margin-bottom:32px}
+.case-page .proj-block{max-width:1100px}.case-page .proj-split{grid-template-columns:1fr 1.2fr;gap:48px;max-width:none}.case-page .case-gallery{max-width:1100px}.case-page .campaign-pair{max-width:1000px}
+@media(max-width:759px){.case-page .project-head{padding-block:100px 28px}.case-page .proj-split{grid-template-columns:1fr;gap:18px}.case-page .case-intro .project-lead{font-size:20px}.case-page .case-intro{padding-block:8px 24px}}

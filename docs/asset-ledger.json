@@ -1,17 +1,17 @@
 [
   {
-    "asset": "Assets/Feed/cover.png",
+    "asset": "Assets/Feed/4.jpg",
     "project": "Built for Feed",
-    "source_file": "Assets/Feed/cover.png",
-    "source_page": "https://github.com/JazzminFarey/selected/blob/a9594d1ea62aa3d576212644a287de6c3d739f1d/Assets/Feed/cover.png",
-    "publisher_or_rightsholder": "Zip Co. / respective creative rights holders",
-    "creator_agency": "Not established for this file",
-    "sha256": "c7da132b40faa8c4d09ff26b4262e4757026989ce2cb5404d9c8653911ca9965",
-    "permission": "Approval assumed for draft creative review at user instruction; not verified legal clearance.",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/4.jpg",
+    "source_file": "Assets/Feed/4.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
     "used_in": [
       "index.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated."
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
+    "sha256": "2286eab31f8c080e1d44f485242f650c1289fc79b493b050b6d068a0ad08257a",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
   },
   {
     "asset": "Assets/Feed/poster-01.jpg",
@@ -23,7 +23,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "30fee98521deaecb46837d5e8e66f632ecde15be41a63f105704921b25131041",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -37,7 +37,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "eec3641efd7b20da7648b85a4d31d1e22b418f64f2f779482ca57d8eafbf6a68",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -51,7 +51,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "7def2b0b3b9e5f2788e2e2428a7c64c2026460d041c66e70443c79ea3ba29a17",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -65,7 +65,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "2286eab31f8c080e1d44f485242f650c1289fc79b493b050b6d068a0ad08257a",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -79,23 +79,9 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "30fee98521deaecb46837d5e8e66f632ecde15be41a63f105704921b25131041",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
-  },
-  {
-    "asset": "Assets/That's A Flex/That's A Flex Home Page Cover.png",
-    "project": "That’s A Flex",
-    "source_file": "Assets/That's A Flex/That's A Flex Home Page Cover.png",
-    "source_page": "https://github.com/JazzminFarey/selected/blob/a9594d1ea62aa3d576212644a287de6c3d739f1d/Assets/That's%20A%20Flex/That's%20A%20Flex%20Home%20Page%20Cover.png",
-    "publisher_or_rightsholder": "Zip Co. / respective creative rights holders",
-    "creator_agency": "Not established for this file",
-    "sha256": "90a9318909946738dab86e527aa6ca6ddab2b14bd0d29d5820203ef9f75776ca",
-    "permission": "Approval assumed for draft creative review at user instruction; not verified legal clearance.",
-    "used_in": [
-      "index.html"
-    ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated."
   },
   {
     "asset": "Assets/drive/flex-boss.webp",
@@ -107,7 +93,7 @@
     "used_in": [
       "thats-a-flex.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "b639897d0fb98c3314764a45857a507cbfd009b00f118fb455de9e23722461a9",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -121,22 +107,8 @@
     "used_in": [
       "thats-a-flex.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "6e70e02a4026a7937e4eaa6c0d4988612f563a471a38d9e6deb3381224aeba7f",
-    "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
-  },
-  {
-    "asset": "Assets/drive/money-0.webp",
-    "project": "Money Your Way",
-    "source_page": "User-provided Google Drive; exact source filename recorded below",
-    "source_file": "1000131097.png",
-    "publisher_or_rightsholder": "Zip Co.; source supplied in Jazz Farey’s Drive",
-    "creator_agency": "Individual creator/agency not established for this exact file",
-    "used_in": [
-      "index.html"
-    ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
-    "sha256": "8ecd4fd09e7e1bf0bf3091db60ace461c45fae8f58299095fd28a0f4f92863b4",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
   {
@@ -149,7 +121,7 @@
     "used_in": [
       "money-your-way.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "bbba43a663bbb30bb497976b56a4185fe703bf642f7930252c985121047e226a",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -163,7 +135,7 @@
     "used_in": [
       "money-your-way.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "1349d53471e7bdcb91182188518c82298b5c3624078264f8aee1b5e91cea54d3",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -177,9 +149,23 @@
     "used_in": [
       "money-your-way.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "66e9f9282e03ae4189523b650434dc3014a61cdf86f02ef0d97d2bcf2a6c9744",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
+  },
+  {
+    "asset": "Assets/drive/money-moodboard.webp",
+    "project": "Selected work",
+    "source_file": "Assets/drive/money-moodboard.webp",
+    "source_page": "Original portfolio / previously supplied campaign asset",
+    "publisher_or_rightsholder": "See project credits",
+    "creator_agency": "See project credits",
+    "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
+    "sha256": "2848bb7217ed10b21545a04e3a6c38e176bb94f40ccd834e4c10c585a1d48bd0"
   },
   {
     "asset": "Assets/drive/money-motion-poster.webp",
@@ -191,7 +177,7 @@
     "used_in": [
       "money-your-way.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "e7aa9c44873220709887029572caf2bc37ca8d289a6cbdfb6add51c089df5a4f",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -205,7 +191,7 @@
     "used_in": [
       "money-your-way.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "0b5a570378ad05f7c6b551a778f1fb327c610b9a15b65015e1d7a211c9a07531",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -219,7 +205,7 @@
     "used_in": [
       "allhearts.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "d230e6e5351c6423adf2c3daeba65e4db55d301a894450fbaf62ea1a0b53f728",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -233,7 +219,7 @@
     "used_in": [
       "allhearts.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "e1ab28b66ae7ec0b4bf0b3fce9f28670ba4db1c4b0e253550bb91f78c81e9cf6",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -247,7 +233,7 @@
     "used_in": [
       "allhearts.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "fe0d2b97b10089e474e9741ad1cbf9aa0d1129cda3cebd5f90a93870fec2fdbf",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -261,7 +247,7 @@
     "used_in": [
       "barnardos-buddies.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": "6bc794bea409a18d080b9468d331955bbde96e6fef3c2109cf7d0b998bfabb87"
   },
@@ -275,7 +261,7 @@
     "used_in": [
       "barnardos-buddies.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "7309c89d5ada407b15d7c76a1512aae379ec5be8a4001d22d101b329515e621b",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -289,7 +275,7 @@
     "used_in": [
       "jump-rope-for-heart.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": "a950c8b34efae81a3d8e06ed6ccefdb68bd1689fb160147ce07d0a82bc64389c"
   },
@@ -303,7 +289,7 @@
     "used_in": [
       "barnardos-buddies.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "07268e01c8bf51573d2b5ad0b2fda72e41cabac1e4fa0d88ca1cf7ef0c467451",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -317,7 +303,7 @@
     "used_in": [
       "jump-rope-for-heart.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": "59dd014ec54d4b83bc32127cc2535f04bc38ec3456502d37bdfc5f6bc8bd2380"
   },
@@ -331,7 +317,7 @@
     "used_in": [
       "jump-rope-for-heart.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "d6186a947c638e306b494bb06610cda6ada03e0f33ecface2a81ee0f571c2f37",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -345,9 +331,23 @@
     "used_in": [
       "walk-your-way.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "0ff8221270aa588894a5e443b544fd4ac1b9831841164c3e78056c3da2a4fb06",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
+  },
+  {
+    "asset": "Assets/sources/taylor-flex-ooh.webp",
+    "project": "That’s A Flex",
+    "source_page": "https://www.tayloraranki.com/zipplus",
+    "source_file": "Assets/sources/taylor-flex-ooh.webp",
+    "publisher_or_rightsholder": "Zip Co.; original publisher Taylor Aranki",
+    "creator_agency": "VML; Taylor Aranki case study. Photography credit not stated.",
+    "used_in": [
+      "index.html"
+    ],
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
+    "sha256": "b7b1592c60830ce0f61a75acab6239acb2afbf06133505bbce8da757dd397dea",
+    "permission": "User instructed assumption of portfolio reuse permission for creative review. Public availability/credit not itself permission. Final provenance gate pending approval."
   },
   {
     "asset": "Assets/work/allhearts.webp",
@@ -359,7 +359,7 @@
     "used_in": [
       "index.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "636d15033a7ab19d1e1150b3f6e460b7cbf2a5d9a2662a403c58c8bed2e61a52",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -373,7 +373,7 @@
     "used_in": [
       "index.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "7b359a62edc17ba9aa33d566b318dedb34fc8a77a999e3673a2f7727238e104c",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -385,9 +385,10 @@
     "publisher_or_rightsholder": "Zip Co.; original publisher Robert Pregardt-Paur",
     "creator_agency": "VML Australia; Robert Pregardt-Paur, motion design and animation",
     "used_in": [
+      "index.html",
       "thats-a-flex.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "357c27bef0e5ea07443a7ef32aae8683b1cb0a7cec75e85fb5da1c75baa5a636",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -399,9 +400,10 @@
     "publisher_or_rightsholder": "Zip Co.; original publisher Robert Pregardt-Paur",
     "creator_agency": "VML Australia; Robert Pregardt-Paur, motion design and animation",
     "used_in": [
+      "index.html",
       "thats-a-flex.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "ee53a80785dbfa87717da3e8b7e53d9a08a69b5b093390de65987d5b71cd70a0",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -415,7 +417,7 @@
     "used_in": [
       "index.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "6604038b64ed034662be4d4cd21b163eb524d81cd70985443b08998027b9c2d2",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -429,7 +431,7 @@
     "used_in": [
       "index.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "sha256": "5ef7d310daaf54ab7580f485c46241bdf2ce757c414aef96535c3bd6a025563c",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
   },
@@ -443,7 +445,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": null
   },
@@ -457,7 +459,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": null
   },
@@ -471,7 +473,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": null
   },
@@ -485,7 +487,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": null
   },
@@ -499,7 +501,7 @@
     "used_in": [
       "built-for-feed.html"
     ],
-    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "cropped_or_edited": "Native proportions in cases. Landscape homepage crops: Money Your Way centred campaign collage; Flex outdoor collage; Feed newspaper partnership frame at 77% vertical position. No campaign art recreated.",
     "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance.",
     "sha256": null
   }
