@@ -1,3 +1,15 @@
+# Project storytelling pass — 29 September 2026
+
+Read the current Google Slides `Jazzmin Farey Portfolio` (1zM1qvsxf8_Y7CQDOJ71XvX6knn3Jq--ARJA489ixcJ8) and Google Doc `jazzmin-farey-portfolio-copy` (1DbNA4RXz19LppEB9TUqhZnvtgSclObhwJR4m0S7PfxU), together with original GitHub cases at 8ca42b81771bf06d3b0a7427db5aed3599bff347. Source files remain private; no deck, internal slide, architecture or recreated campaign visual is published.
+
+The previous pass improved spacing but left generic copy. This pass gives each case a distinct story and consolidates repeated labels, role statements and channel/output lists. Money Your Way: beyond BNPL, flexibility and customer control. Flex: product launch, benefit comprehension and translation into campaign/paid/creator formats. Feed: creator voice, hooks, variants and learning. Winners: grouping creative elements to inform briefs, with acquisition measurement beyond clicks. Earlier case narratives and results retain the facts from the original portfolio; source notes now sit in the footer. Better uses the user's approved founder direction from 24 September and retains in-development status.
+
+No new Zip numeric claims added from the private deck. Older campaign results remain historical, with their period/source retained in the footer. Known collaborators remain credited. Legal ownership text is one small-print line at the very bottom; none appears within the case narrative. Homepage layout unchanged; only its long disclaimer shortened. Asset selections unchanged.
+
+Validation and preview commit recorded in PR #2. PR remains draft, open and unmerged.
+
+---
+
 # Case-page hierarchy pass — 29 September 2026
 
 Reference inspected: first GitHub commit 8ca42b81771bf06d3b0a7427db5aed3599bff347, Money Your Way case, including rendered desktop view. This pass changes case pages only; the approved homepage, homepage CSS, shared CSS and homepage motion script are unchanged.
