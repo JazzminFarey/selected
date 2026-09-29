@@ -1,3 +1,13 @@
+# Robert reference pass — 29 September 2026
+
+Supersedes the simplification pass below. Inspected Robert’s homepage and Canva case visually. Adopted the wide motion/intro split, landscape thumbnail grid with hover titles (touch titles overlaid), and title → media → explanation case hierarchy. Preserved JF navigation and Better project tile.
+
+Genuine Flex campaign motion is now the homepage feature, with native pause controls, muted playback and reduced-motion handling; this is not a new showreel. Flex cover uses the existing Taylor Aranki outdoor campaign board. Built for Feed uses the Zip/Cathay Pacific partnership execution, composed around the newspaper. Money Your Way retains its original portrait/headline as a landscape thumbnail crop. Full campaign assets remain in cases.
+
+Removed case-heading subtitles; explanatory copy follows primary media. Restored paired heading/body columns on desktop with wider supporting imagery. Mobile stacks the content. Asset ledger updated for current usage and crop treatments. Final hosted QA is recorded on PR #2.
+
+---
+
 # Simplification pass — 29 September 2026
 
 This supersedes the layout described below, following Jazz’s screenshot feedback.
