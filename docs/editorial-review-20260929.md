@@ -1,3 +1,21 @@
+# Simplification pass — 29 September 2026
+
+This supersedes the layout described below, following Jazz’s screenshot feedback.
+
+- One centred identity and introduction; JF navigation mark throughout.
+- One continuous nine-project grid, including Better.; single covers with no coloured framing. Three columns on wide desktop, two on tablet, one on mobile.
+- Removed homepage section headings, category labels, ordinal numbering and decorative rules.
+- Cases use a centred title and short lead, then creative and a single-column story. Full contribution detail and credits remain in a disclosure before the next project.
+- Money Your Way reduced to a distinct hero, two product stills and genuine campaign motion. Flex leads with campaign motion, followed by context and two stills. Removed repetitive galleries and typographic repeat panels.
+- No new campaign artwork was made. Flex and Feed covers use existing repository photographs; deliberate square crops preserve the subjects. Earlier-work thumbnails are square crops; native compositions remain inside cases.
+- Current live asset ledger: 36 image/video/poster/embed records.
+
+QA: hosted desktop homepage, mobile homepage, mobile Money Your Way and Barnardos Buddies, and desktop Flex inspected. Local file references checked. Further final interaction checks are recorded in PR #2.
+
+---
+
+## Earlier pass (superseded layout)
+
 # Portfolio editorial review — 29 September 2026
 
 Working base: b61ff28a45536331adb25120f7de35927d205891. PR #2 remains draft, open and unmerged.

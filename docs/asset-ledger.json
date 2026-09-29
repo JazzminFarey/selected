@@ -16,7 +16,20 @@
   {
     "asset": "Assets/Feed/poster-01.jpg",
     "project": "Built for Feed",
-    "source_page": "https://github.com/Jazzmi…228 tokens truncated…eed",
+    "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-01.jpg",
+    "source_file": "Assets/Feed/poster-01.jpg",
+    "publisher_or_rightsholder": "Zip Co. / featured creators",
+    "creator_agency": "Individual creator identity not established for this file",
+    "used_in": [
+      "built-for-feed.html"
+    ],
+    "cropped_or_edited": "Case artwork shown at native proportions. Homepage uses a single square cover; photography is cropped to fit, Money Your Way artwork retained in full. No campaign artwork recreated.",
+    "sha256": "30fee98521deaecb46837d5e8e66f632ecde15be41a63f105704921b25131041",
+    "permission": "User instructed approval assumption for draft creative review on 29 September 2026. Not a verified licence or final legal clearance."
+  },
+  {
+    "asset": "Assets/Feed/poster-02.jpg",
+    "project": "Built for Feed",
     "source_page": "https://github.com/JazzminFarey/selected/blob/520dcb536fa17d09ff40ccd77c1e4bd505448519/Assets/Feed/poster-02.jpg",
     "source_file": "Assets/Feed/poster-02.jpg",
     "publisher_or_rightsholder": "Zip Co. / featured creators",
